@@ -108,7 +108,7 @@ router.delete("/:id", (req, res) => {
     },
   })
     .then(() => {
-      res.status(200);
+      res.send();
     })
     .catch((err) => {
       // console.log(err);
